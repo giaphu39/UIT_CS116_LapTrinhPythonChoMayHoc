@@ -19,7 +19,7 @@ st.set_page_config(page_title="🎯 Hybrid Recommendation System", layout="cente
 
 # Define data paths
 BASE_DIR = os.path.dirname(__file__)
-DATA_DIR = os.path.join(BASE_DIR, "Data")
+DATA_DIR = os.path.join(BASE_DIR, "data")
 RAW_DATA_PATH = os.path.join(DATA_DIR, "shopping_behavior_updated.csv")
 PROC_DATA_PATH = os.path.join(DATA_DIR, "shopping_behavior_processed.csv")
 
