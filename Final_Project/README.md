@@ -50,7 +50,7 @@
 
 ## COURSE PROJECT
 <a name="project"></a>
-**Project Title: Hybrid Recommendation System**
+**Project Title: Hybrid Product Recommendation System**
 
 A hybrid product recommendation system that analyzes customer behavior and shopping habits to deliver personalized product suggestions for e-commerce. The system combines content-based, collaborative filtering, and machine learning approaches to maximize personalization and recommendation accuracy.
 
