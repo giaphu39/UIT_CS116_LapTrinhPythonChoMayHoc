@@ -10,4 +10,3 @@ catboost>=1.2.0
 joblib>=1.2.0
 psutil>=5.9.0
 optuna>=3.0.0
-kaggle>=1.5.12
