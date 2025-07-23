@@ -87,7 +87,7 @@ Final_Project/
 ├── requirements.txt                                    
 ├── README.md                                           
 │
-├── Data/                                               
+├── data/                                               
 │   ├── shopping_behavior_updated.csv
 │   ├── shopping_behavior_processed.csv
 │   ├── shopping_behavior_final_features.csv
