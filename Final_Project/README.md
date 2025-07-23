@@ -46,7 +46,7 @@
 | 1      | 23520761      | Bùi Nhật Anh Khôi      | https://github.com/KhoiBui16                         |23520761@gm.uit.edu.vn   |
 | 2      | 23520662      | Nguyễn Khang Hy        | https://github.com/HyIsNoob	                         |23520662@gm.uit.edu.vn   |
 | 3      | 2352004       | Đinh Lê Bình An        | https://github.com/BinhAnndapoet                     |23520004@gm.uit.edu.vn   |
-| 4      | 23520713      | Vũ Gia Khang           | https://github.com/bayvai20kg                        |235210713@gm.uit.edu.vn  |
+| 4      | 23520713      | Vũ Gia Khang           | https://github.com/bayvai20kg                        |23520713@gm.uit.edu.vn   
 
 ## COURSE PROJECT
 <a name="project"></a>
