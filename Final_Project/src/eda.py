@@ -41,17 +41,17 @@ CATEGORICAL_COLS = [
 
 
 
-def download_dataset_if_needed(dataset, data_dir):
-    if not os.path.exists(data_dir):
-        os.makedirs(data_dir)
-        print(f"=> Created data directory at [ {data_dir} ]")
+# def download_dataset_if_needed(dataset, data_dir):
+#     if not os.path.exists(data_dir):
+#         os.makedirs(data_dir)
+#         print(f"=> Created data directory at [ {data_dir} ]")
         
-        # Xac thuc API key from kaggle.json
-        kaggle.api.authenticate()
-        kaggle.api.dataset_download_files(dataset, path=data_dir, unzip=True)
-        print(f"=> Dataset downloaded and extracted to [ {data_dir} ]")
-    else:
-        print(f"=> Dataset already exist at [ {data_dir} ]")
+#         # Xac thuc API key from kaggle.json
+#         kaggle.api.authenticate()
+#         kaggle.api.dataset_download_files(dataset, path=data_dir, unzip=True)
+#         print(f"=> Dataset downloaded and extracted to [ {data_dir} ]")
+#     else:
+#         print(f"=> Dataset already exist at [ {data_dir} ]")
         
 def load_data(data_path):
     return pd.read_csv(data_path)
