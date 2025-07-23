@@ -81,7 +81,7 @@ This project leverages the [Consumer Behavior and Shopping Habits Dataset](https
 <a id="-project-directory-structure"></a>
 
 ```
-project-root/
+Final_Project/
 │
 ├── app.py                                              
 ├── requirements.txt                                    
