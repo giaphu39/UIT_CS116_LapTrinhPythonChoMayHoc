@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import kaggle
+# import kaggle
 from typing import List, Tuple
 
 # config.py
@@ -41,17 +41,17 @@ CATEGORICAL_COLS = [
 
 
 
-# def download_dataset_if_needed(dataset, data_dir):
-#     if not os.path.exists(data_dir):
-#         os.makedirs(data_dir)
-#         print(f"=> Created data directory at [ {data_dir} ]")
+def download_dataset_if_needed(dataset, data_dir):
+    if not os.path.exists(data_dir):
+        os.makedirs(data_dir)
+        print(f"=> Created data directory at [ {data_dir} ]")
         
-#         # Xac thuc API key from kaggle.json
-#         kaggle.api.authenticate()
-#         kaggle.api.dataset_download_files(dataset, path=data_dir, unzip=True)
-#         print(f"=> Dataset downloaded and extracted to [ {data_dir} ]")
-#     else:
-#         print(f"=> Dataset already exist at [ {data_dir} ]")
+        # # Xac thuc API key from kaggle.json
+        # kaggle.api.authenticate()
+        # kaggle.api.dataset_download_files(dataset, path=data_dir, unzip=True)
+        # print(f"=> Dataset downloaded and extracted to [ {data_dir} ]")
+    else:
+        print(f"=> Dataset already exist at [ {data_dir} ]")
         
 def load_data(data_path):
     return pd.read_csv(data_path)
@@ -225,8 +225,8 @@ def plot_multivariate_purchase_category_gender(df: pd.DataFrame, out_dir: str):
     plt.close()
 
 def main():
-    # dataset_name = "zeesolver/consumer-behavior-and-shopping-habits-dataset"
-    # download_dataset_if_needed(dataset_name, DATA_DIR)
+    dataset_name = "zeesolver/consumer-behavior-and-shopping-habits-dataset"
+    download_dataset_if_needed(dataset_name, DATA_DIR)
     os.makedirs(FIGURES_DIR, exist_ok=True)
     os.makedirs(EDA_DIR, exist_ok=True)
     
