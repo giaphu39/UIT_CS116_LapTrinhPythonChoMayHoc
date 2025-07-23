@@ -225,8 +225,8 @@ def plot_multivariate_purchase_category_gender(df: pd.DataFrame, out_dir: str):
     plt.close()
 
 def main():
-    dataset_name = "zeesolver/consumer-behavior-and-shopping-habits-dataset"
-    download_dataset_if_needed(dataset_name, DATA_DIR)
+    # dataset_name = "zeesolver/consumer-behavior-and-shopping-habits-dataset"
+    # download_dataset_if_needed(dataset_name, DATA_DIR)
     os.makedirs(FIGURES_DIR, exist_ok=True)
     os.makedirs(EDA_DIR, exist_ok=True)
     
