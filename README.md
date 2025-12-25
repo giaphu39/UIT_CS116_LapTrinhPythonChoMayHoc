@@ -68,7 +68,8 @@ UIT_CS116_LapTrinhPythonChoMayHoc/
 
 #### 🔹 **[Final_Project](https://github.com/KhoiBui16/UIT_CS116_LapTrinhPythonChoMayHoc/tree/main/Final_Project)**
 Thư mục dự án cuối kỳ, tập trung triển khai bài toán thực tiễn với:
-- **Notebook.ipynb**: Triển khai toàn bộ mã nguồn.
+- Triển khai toàn bộ mã nguồn.
+- Deplot qua streamlit
 - **Report.pdf**: Báo cáo kết quả dự án.
 
 #### 🔹 **[Những câu hỏi Big Tech về ML cơ bản](https://github.com/KhoiBui16/UIT_CS116_LapTrinhPythonChoMayHoc/tree/main/Nh%E1%BB%AFng%20c%C3%A2u%20h%E1%BB%8Fi%20Big%20Tech%20v%E1%BB%81%20ML%20c%C6%A1%20b%E1%BA%A3n)**  
