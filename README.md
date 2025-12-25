@@ -1,8 +1,10 @@
 # 🌐 UIT_CS116: Lập Trình Python Cho Máy Học
 
 > **Repository chính thức của môn học `CS116` - Lập Trình Python Cho Máy Học tại Trường Đại học Công nghệ Thông tin (UIT)**  
+
 > Nơi tổng hợp đầy đủ bài tập, tài liệu môn học và dự án cuối kỳ về Python và Machine Learning.
 
+> README in english you can read here: [README_ENG.md](README_ENG.md):
 ---
 
 ## 📌 Tổng quan
